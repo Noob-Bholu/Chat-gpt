@@ -16,7 +16,7 @@ from bardapi import Bard
 from datetime import datetime
 import logging
 
-FORMAT = "[LEGEND-MUKESH] %(message)s"
+FORMAT = "[NOOB-BHOLU] %(message)s"
 logging.basicConfig(
     level=logging.WARNING, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
 )
@@ -30,23 +30,22 @@ Mukesh = Client(
     bot_token = BOT_TOKEN
 )
 START = f"""
-๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}
-➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ.
+𝐇ᴇʏ, 𝐈 𝐀ᴍ {BOT_NAME}
+➻ 𝐀ɴ 𝐎ᴘᴇɴ-𝐀ɪ-𝐁ᴀsᴇᴅ 𝐂ʜᴀᴛɢᴘᴛ.
 ──────────────────
-ɪ ᴀᴍ ᴀᴅᴠᴀɴᴄᴇ ʙᴏᴛ ᴀɴᴅ ᴄᴀɴ 
-ᴀɴsᴡᴇʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀɪᴇs ᴇᴀsʟɪʏ
+𝐈 𝐀ᴍ 𝐀ᴅᴠᴀɴᴄᴇ 𝐁ᴏᴛ 𝐀ɴᴅ 𝐂ᴀɴ 
+𝐀ɴsᴡᴇʀ 𝐘ᴏᴜʀ 𝐀ɴʏ 𝐐ᴜᴇsᴛɪᴏɴ 𝐄ᴀsʟɪʏ
 
-Rᴇᴀᴅ Tʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ
 
-๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help
+๏ 𝐓ᴏ 𝐆ᴇᴛ 𝐇ᴇʟᴘ 𝐔sᴇ /help
 """
 xa = bytearray.fromhex("68 74 74 70 73 3A 2F 2F 67 69 74 68 75 62 2E 63 6F 6D 2F 4E 6F 6F 62 2D 6D 75 6B 65 73 68 2F 43 68 61 74 67 70 74 2D 62 6F 74").decode()
 SOURCE = xa
 SOURCE_TEXT = f"""
-๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]
-➻ ᴀɴ ᴏᴘᴇɴ-ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛɢᴘᴛ.
+๏ 𝐇ᴇʏ, 𝐈 𝐀ᴍ [{BOT_NAME}]
+➻ 𝐀ɴ 𝐎ᴘᴇɴ-𝐀ɪ-𝐁ᴀsᴇᴅ 𝐂ʜᴀᴛɢᴘᴛ.
 ──────────────────
-ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ
+𝐂ʟɪᴄᴋ 𝐁ᴇʟᴏᴡ 𝐁ᴜᴛᴛᴏɴ 𝐓ᴏ 𝐆ᴇᴛ 𝐓ʜᴇ 𝐒ᴏᴜʀᴄᴇ 𝐂ᴏᴅᴇ
 """
 
 
@@ -54,17 +53,17 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="🙋‍♂️ 𝐒ᴜᴘᴘᴏʀᴛ 🗣️", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+            text="🙆‍♀️𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ💁‍♂️",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text="𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{SOURCE}"),
@@ -73,30 +72,31 @@ MAIN = [
 ]
 X = [
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻", url=f"https://t.me/{OWNER_USERNAME}"),
         
-        InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text="🙆‍♀️ ꜱᴜᴘᴘᴏʀᴛ 💁‍♂️", url=f"https://t.me/{SUPPORT_GRP}"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
+             text="🙆‍♀️𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ🙋‍♂️",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", 
+         InlineKeyboardButton(text="🙋‍♂️ 𝐒ᴜᴘᴘᴏʀᴛ 🗣️", 
                               url=f"https://t.me/{SUPPORT_GRP}",
          ),
      ],
 ]
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', url=f"{SOURCE}")]])
-HELP_READ = "**➻ ᴜsᴀɢᴇ** /chatgpt <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/chatgpt write a simple flask app in python.`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute girl photo`  \n\n➻ ᴜsᴀɢᴇ /lyrics : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ꜰɪʟᴇ ᴛᴏ ᴅᴇᴛᴇᴄᴛ ʟʏʀɪᴄꜱ**➻ ᴜsᴀɢᴇ /ping ᴛᴏ ᴄʜᴇᴄᴋ ᴛʜᴇ ᴘɪɴɢ ᴏғ ᴛʜᴇ ʙᴏᴛ.**\n\n©️ @mr_sukkun**"
+SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝐒ᴏᴜʀᴄᴇ', url=f"{SOURCE}")]])
+HELP_READ = "**➻ 𝐔
+sᴀɢᴇ** /chatgpt <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/chatgpt where is burj khalifa?`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute girl photo`  \n\n➻ 𝐔sᴀɢᴇ /lyrics : 𝐑ᴇᴘʟʏ 𝐓ᴏ 𝐀ᴜᴅɪᴏ 𝐅ɪʟᴇ 𝐓ᴏ 𝐃ᴇᴛᴇᴄᴛ 𝐋ʏʀɪᴄꜱ**➻ 𝐔sᴀɢᴇ /ping 𝐓ᴏ 𝐂ʜᴇᴄᴋ 𝐓ʜᴇ 𝐏ɪɴɢ 𝐎ғ 𝐓ʜᴇ 𝐁ᴏᴛ.**\n\n©️ @Tricky_heaveN**"
 HELP_BACK = [
      [
-           InlineKeyboardButton(text="Qᴜᴇꜱᴛɪᴏɴ ᴛʜᴀᴛ ᴄʜᴀᴛɢᴘᴛ ᴄᴀɴ ꜱᴏʟᴠᴇ ", url=f"https://t.me/mr_sukkun/528"),
+           InlineKeyboardButton(text="𝐐ᴜᴇꜱᴛɪᴏɴ 𝐓ʜᴀᴛ 𝐂ʜᴀᴛɢᴘᴛ 𝐂ᴀɴ 𝐒ᴏʟᴠᴇ ", url=f"https://t.me/intangible_fed/1066"),
            
      ],
     [
@@ -112,7 +112,7 @@ async def start(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(0.2)
-        await accha.edit("ᴘɪɴɢ ᴘᴏɴɢ ꜱᴛᴀʀᴛɪɴɢ..")
+        await accha.edit("𝐏ɪɴɢ 𝐏ᴏɴɢ 𝐒ᴛᴀʀᴛɪɴɢ..")
         await asyncio.sleep(0.2)
         await accha.delete()
         umm = await m.reply_sticker(
@@ -164,7 +164,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [ᴍᴜᴋᴇsʜ](https://t.me/legend_coder)||",
+                             caption=f"𝐇ᴇʏ !!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [ᴍᴜᴋᴇsʜ](https://t.me/legend_coder)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -267,7 +267,7 @@ if __name__ == "__main__":
         raise Exception("Your API_ID/API_HASH is not valid.")
     except AccessTokenInvalid:
         raise Exception("Your BOT_TOKEN is not valid.")
-    print(f"""JOIN  @MR_SUKKUN
+    print(f"""JOIN  @Tricky_heaveN
 GIVE STAR TO THE REPO 
  {BOT_NAME} ɪs ᴀʟɪᴠᴇ!  
     """)
