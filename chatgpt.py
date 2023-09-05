@@ -53,53 +53,52 @@ x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
 g=choice(x)
 MAIN = [
     [
-        InlineKeyboardButton(text="👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="🙋‍♂️ 𝐒ᴜᴘᴘᴏʀᴛ 🗣️", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text=" 𝐃ᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text=" 𝐒ᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
     ],
     [
         InlineKeyboardButton(
-            text="🙆‍♀️𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ💁‍♂️",
+            text="𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text=" 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
     ],
     [
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{SOURCE}"),
-        InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),
+        InlineKeyboardButton(text=" 𝐔ᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
 ]
 X = [
     [
-        InlineKeyboardButton(text="👨‍💻 𝐃ᴇᴠᴇʟᴏᴘᴇʀ 👨‍💻", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text=" 𝐃ᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"),
         
-        InlineKeyboardButton(text="🙆‍♀️ ꜱᴜᴘᴘᴏʀᴛ 💁‍♂️", url=f"https://t.me/{SUPPORT_GRP}"),
+        InlineKeyboardButton(text=" 𝐒ᴜᴘᴘᴏʀᴛ , url=f"https://t.me/{SUPPORT_GRP}"),
     ]
     ]
     
 PNG_BTN = [
     [
          InlineKeyboardButton(
-             text="🙆‍♀️𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ🙋‍♂️",
+             text="𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ",
              url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
          ),
      ],
      [
-         InlineKeyboardButton(text="🙋‍♂️ 𝐒ᴜᴘᴘᴏʀᴛ 🗣️", 
+         InlineKeyboardButton(text=" 𝐒ᴜᴘᴘᴏʀᴛ ", 
                               url=f"https://t.me/{SUPPORT_GRP}",
          ),
      ],
 ]
-SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('𝐒ᴏᴜʀᴄᴇ', url=f"{SOURCE}")]])
-HELP_READ = "**➻ 𝐔sᴀɢᴇ** /chatgpt <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/chatgpt where is burj khalifa?`\n\n**➻ ᴜsᴀɢᴇ** : /generate <prompt> \nᴇxᴀᴍᴘʟᴇ: `/generate a cute girl photo`  \n\n➻ 𝐔sᴀɢᴇ /lyrics : 𝐑ᴇᴘʟʏ 𝐓ᴏ 𝐀ᴜᴅɪᴏ 𝐅ɪʟᴇ 𝐓ᴏ 𝐃ᴇᴛᴇᴄᴛ 𝐋ʏʀɪᴄꜱ**➻ 𝐔sᴀɢᴇ /ping 𝐓ᴏ 𝐂ʜᴇᴄᴋ 𝐓ʜᴇ 𝐏ɪɴɢ 𝐎ғ 𝐓ʜᴇ 𝐁ᴏᴛ.**\n\n©️ @Tricky_heaveN**"
+
+HELP_READ = "**➻ 𝐔sᴀɢᴇ** /ask <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/ask 𝐔sᴇ 𝐓ʜɪs 𝐓𝐨 𝐀sᴋ 𝐀ɴʏ 𝐐ᴜᴇsᴛɪᴏɴ 𝐓ᴏ 𝐌ᴇ`\n\n**➻ 𝐔sᴀɢᴇ** : /generate <prompt> \n𝐄xᴀᴍᴘʟᴇ: `/generate 𝐓ᴏ 𝐆ᴇɴᴇʀᴀᴛᴇ 𝐀 𝐏ʜᴏᴛᴏ`  \n\n➻ 𝐔sᴀɢᴇ /lyrics : 𝐑ᴇᴘʟʏ 𝐓ᴏ 𝐀ᴜᴅɪᴏ 𝐅ɪʟᴇ 𝐓ᴏ 𝐃ᴇᴛᴇᴄᴛ 𝐋ʏʀɪᴄꜱ**➻ 𝐔sᴀɢᴇ /ping 𝐓ᴏ 𝐂ʜᴇᴄᴋ 𝐓ʜᴇ 𝐏ɪɴɢ 𝐎ғ 𝐓ʜᴇ 𝐁ᴏᴛ.**\n\n©️ @Tricky_heaveN**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="𝐐ᴜᴇꜱᴛɪᴏɴ 𝐓ʜᴀᴛ 𝐂ʜᴀᴛɢᴘᴛ 𝐂ᴀɴ 𝐒ᴏʟᴠᴇ ", url=f"https://t.me/intangible_fed/1066"),
            
      ],
     [
-           InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK"),
+           InlineKeyboardButton(text=" 𝐁ᴀᴄᴋ ", callback_data="HELP_BACK"),
     ],
 ]
 
@@ -147,8 +146,7 @@ async def restart(client, message):
        )
 @Mukesh.on_message(filters.command(['source', 'repo'], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def source(bot, m):
-    
-    await m.reply_photo(START_IMG, caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS)
+await message.reply_text("𝐁ʜᴇɴᴄʜᴏᴅ,𝐋ᴜɴᴅ 𝐋ᴇ 𝐋ᴇ 𝐌ᴇʀᴀ😡 /n/n 𝐄ʟsᴇ 𝐂ᴏɴᴛᴀᴄᴛ @UNKNOWN_CRITERIA_RK")
 #  alive
 @Mukesh.on_message(filters.command(["ping","alive"], prefixes=["+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
@@ -163,7 +161,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"𝐇ᴇʏ !!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [ᴍᴜᴋᴇsʜ](https://t.me/legend_coder)||",
+                             caption=f"𝐇ᴇʏ !!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) 𝐈ꜱ 𝐀ʟɪᴠᴇ 𝐀ɴᴅ 𝐖ᴏʀᴋɪɴɢ 𝐅ɪɴᴇ 𝐖ɪᴛʜ 𝐏ɪɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**𝐌ᴀᴅᴇ 𝐖ɪᴛʜ 🖤 𝐁ʏ || [𝐁ʜᴏʟᴜ](https://t.me/itzme_dear)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -177,7 +175,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`/chatgpt Where is TajMahal?`")
+            "Example:**\n\n`/ask Where is TajMahal?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -186,9 +184,9 @@ async def chat(bot, message):
             x=resp['choices'][0]["message"]["content"]
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
-            await message.reply_text(f"{message.from_user.first_name} ᴀꜱᴋᴇᴅ:\n\n {a} \n\n {BOT_NAME} ᴀɴꜱᴡᴇʀᴇᴅ:-\n\n {x}\n\n✨ᴛɪᴍᴇ ᴛᴀᴋᴇɴ  {telegram_ping} \n\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @{BOT_USERNAME} ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
+            await message.reply_text(f"➥ {message.from_user.first_name} 𝐀ꜱᴋᴇᴅ:\n\n {a} \n\n➥ {BOT_NAME} 𝐀ɴꜱᴡᴇʀᴇᴅ:-\n\n {x}\n\n➥ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ  {telegram_ping} \n\n➥ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ @Tricky_heaveN 🖤", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
     except Exception as e:
-        await message.reply_text(f"**ᴇʀʀᴏʀ: {e} ")
+        await message.reply_text(f"**𝐄ʀʀᴏʀ: {e} ")
 
 #  bard 
 
@@ -204,27 +202,27 @@ async def bard_bot(bot, message):
         else:
             a = message.text.split(' ', 1)[1]
             response=bard.get_answer(f"{a}")["content"]
-            await message.reply_text(f"{response}\n\n🎉ᴘᴏᴡᴇʀᴇᴅ ʙʏ @{BOT_USERNAME} ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
+            await message.reply_text(f"{response}\n\n➥ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Tricky_heaveN ", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
     except Exception as e:
-        await message.reply_text(f"**ᴇʀʀᴏʀ:  {e} ")
+        await message.reply_text(f"**𝐄ʀʀᴏʀ:  {e} ")
 
     '''
 openai.api_key = OPENAI_KEY
-@Mukesh.on_message(filters.command(["image","photo","img","generate"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"] ))
+@Mukesh.on_message(filters.command(["image","photo","img","gen"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"] ))
 async def chat(bot, message):
     try:
         start_time = time.time()
         await bot.send_chat_action(message.chat.id, ChatAction.UPLOAD_PHOTO)
         if len(message.command) < 2:
             await message.reply_text(
-            "**Example:**\n\n`/generate a white siamese cat`")
+            "**Example:**\n\n`/gen 𝐓ᴏ 𝐆ᴇɴᴀʀᴀᴛᴇ 𝐘ᴏᴜʀ 𝐃ᴇsɪʀᴇᴅ 𝐏ɪᴄᴛᴜʀᴇ`")
         else:
             a = message.text.split(' ', 1)[1]
             response= openai.Image.create(prompt=a ,n=1,size="1024x1024")
             image_url = response['data'][0]['url']
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
-            await message.reply_photo(image_url,caption=f"✨ᴛɪᴍᴇ ᴛᴀᴋᴇɴ {telegram_ping} ",parse_mode=ParseMode.DISABLED,reply_markup=InlineKeyboardMarkup(X)) 
+            await message.reply_photo(image_url,caption=f"➥𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ {telegram_ping} ",parse_mode=ParseMode.DISABLED,reply_markup=InlineKeyboardMarkup(X)) 
     except Exception as e:
             await message.reply_text(f"**ᴇʀʀᴏʀ: **  ` {e} `")
 openai.api_key = OPENAI_KEY
@@ -236,13 +234,13 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if message.reply_to_message and message.reply_to_message.media:
             
-            m = await message.reply_to_message.download(file_name="mukesh.mp3")
+            m = await message.reply_to_message.download(file_name="rahul.mp3")
             audio_file = open(m, "rb")
             transcript = openai.Audio.transcribe("whisper-1", audio_file)
             x=transcript["text"]
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
-            await message.reply_text(f"`{x}` \n ✨ᴛɪᴍᴇ ᴛᴀᴋᴇɴ {telegram_ping}")     
+            await message.reply_text(f"`{x}` \n ➥𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ {telegram_ping}")     
     except Exception as e:
         await message.reply_text(f"**ᴇʀʀᴏʀ: **  ` {e} `")
 
@@ -256,7 +254,7 @@ if SOURCE != s:
 
 
 if __name__ == "__main__":
-    print(f""" {BOT_NAME} ɪs ᴀʟɪᴠᴇ!
+    print(f""" {BOT_NAME} 𝐈s 𝐀ʟɪᴠᴇ!
     """)
     try:
         Mukesh.start()
