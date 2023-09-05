@@ -144,9 +144,7 @@ async def restart(client, message):
                         caption=HELP_READ,
                         reply_markup= InlineKeyboardMarkup(HELP_BACK),
        )
-@Mukesh.on_message(filters.command(['source', 'repo'], prefixes=["","+", ".", "/", "-", "?", "$"]))
-async def source(bot, m):
-await message.reply_text("𝐁ʜᴇɴᴄʜᴏᴅ,𝐋ᴜɴᴅ 𝐋ᴇ 𝐋ᴇ 𝐌ᴇʀᴀ😡 /n/n 𝐄ʟsᴇ 𝐂ᴏɴᴛᴀᴄᴛ @UNKNOWN_CRITERIA_RK")
+
 #  alive
 @Mukesh.on_message(filters.command(["ping","alive"], prefixes=["+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
