@@ -90,7 +90,7 @@ PNG_BTN = [
      ],
      [
          InlineKeyboardButton(text=" 𝐃ᴇᴠᴇʟᴏᴘᴇʀ ",
-                              url=f" https://t.me/UNKNOWN_CRITERIA_RK"),
+                              url=f" https://t.me/{OWNER_USERNAME}"),
          InlineKeyboardButton(text=" 𝐒ᴜᴘᴘᴏʀᴛ ", 
                               url=f"https://t.me/{SUPPORT_GRP}",
          ),
