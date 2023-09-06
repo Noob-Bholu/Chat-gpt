@@ -64,12 +64,16 @@ MAIN = [
     ],
     [
         InlineKeyboardButton(text=" 𝐇ᴇʟᴘ & 𝐂ᴍᴅs ", callback_data="HELP"),
-    ],
-    [
         InlineKeyboardButton(text=" 𝐔ᴘᴅᴀᴛᴇs ", url=f"https://t.me/{UPDATE_CHNL}"),
     ],
 ]
 X = [
+    [
+        InlineKeyboardButton(
+            text="𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ",
+            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+        ),
+    ],
     [
         InlineKeyboardButton(text=" 𝐃ᴇᴠᴇʟᴏᴘᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"),
         
@@ -85,6 +89,8 @@ PNG_BTN = [
          ),
      ],
      [
+         InlineKeyboardButton(text=" 𝐃ᴇᴠᴇʟᴏᴘᴇʀ ",
+                              url=f" https://t.me/UNKNOWN_CRITERIA_RK"),
          InlineKeyboardButton(text=" 𝐒ᴜᴘᴘᴏʀᴛ ", 
                               url=f"https://t.me/{SUPPORT_GRP}",
          ),
@@ -159,7 +165,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"𝐇ᴇʏ !!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) 𝐈ꜱ 𝐀ʟɪᴠᴇ 𝐀ɴᴅ 𝐖ᴏʀᴋɪɴɢ 𝐅ɪɴᴇ 𝐖ɪᴛʜ 𝐏ɪɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**𝐌ᴀᴅᴇ 𝐖ɪᴛʜ 🖤 𝐁ʏ || [𝐁ʜᴏʟᴜ](https://t.me/itzme_dear)||",
+                             caption=f"𝐇ᴇʏ !!\n**[{BOT_NAME}](t.me/{BOT_USERNAME}) 𝐈ꜱ 𝐀ʟɪᴠᴇ 𝐀ɴᴅ 𝐖ᴏʀᴋɪɴɢ 𝐅ɪɴᴇ 𝐖ɪᴛʜ 𝐏ɪɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**𝐌ᴀᴅᴇ 𝐖ɪᴛʜ 🖤 𝐁ʏ || [𝐑ᴀʜᴜʟ](https://t.me/itzme_dear)||",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -173,7 +179,7 @@ async def chat(bot, message):
         await bot.send_chat_action(message.chat.id, ChatAction.TYPING)
         if len(message.command) < 2:
             await message.reply_text(
-            "Example:**\n\n`/ask Where is TajMahal?`")
+            "Example:**\n\n`/ask 𝐖ʜᴀᴛ 𝐈s 𝐌ᴀᴛʜᴇᴍᴀᴛɪᴄs?`")
         else:
             a = message.text.split(' ', 1)[1]
             MODEL = "gpt-3.5-turbo"
@@ -184,7 +190,7 @@ async def chat(bot, message):
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
             await message.reply_text(f"➥ {message.from_user.first_name} 𝐀ꜱᴋᴇᴅ:\n\n {a} \n\n➥ {BOT_NAME} 𝐀ɴꜱᴡᴇʀᴇᴅ:-\n\n {x}\n\n➥ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ  {telegram_ping} \n\n➥ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ @Tricky_heaveN 🖤", parse_mode=ParseMode.MARKDOWN,reply_markup=InlineKeyboardMarkup(X))     
     except Exception as e:
-        await message.reply_text(f"**𝐄ʀʀᴏʀ: {e} ")
+        await message.reply_text(f"**𝐄ʀʀᴏʀ: {e} \n\n➥ 𝐑ᴇᴘᴏʀᴛ 𝐇ᴇʀᴇ:- @Tricky_heaveN")
 
 #  bard 
 
@@ -220,9 +226,9 @@ async def chat(bot, message):
             image_url = response['data'][0]['url']
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
-            await message.reply_photo(image_url,caption=f"➥𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ {telegram_ping} ",parse_mode=ParseMode.DISABLED,reply_markup=InlineKeyboardMarkup(X)) 
+            await message.reply_photo(image_url,caption=f"➥ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ {telegram_ping} \n\n➥ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ:- @Tricky_heaveN ",parse_mode=ParseMode.DISABLED,reply_markup=InlineKeyboardMarkup(X)) 
     except Exception as e:
-            await message.reply_text(f"**ᴇʀʀᴏʀ: **  ` {e} `")
+            await message.reply_text(f"**ᴇʀʀᴏʀ: **  ` {e} ` \n\n➥ 𝐑ᴇᴘᴏʀᴛ 𝐇ᴇʀᴇ:- @Tricky_heaveN ")
 openai.api_key = OPENAI_KEY
 @Mukesh.on_message(filters.command(["text","audiototext","lyrics"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
@@ -238,7 +244,7 @@ async def chat(bot, message):
             x=transcript["text"]
             end_time = time.time()
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
-            await message.reply_text(f"`{x}` \n ➥𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ {telegram_ping}")     
+            await message.reply_text(f"`{x}` \n➥ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ {telegram_ping} \n\n➥ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ:- @UNKNOWN_CRITERIA_RK")     
     except Exception as e:
         await message.reply_text(f"**ᴇʀʀᴏʀ: **  ` {e} `")
 
