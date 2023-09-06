@@ -97,7 +97,7 @@ PNG_BTN = [
      ],
 ]
 
-HELP_READ = "**➻ 𝐔sᴀɢᴇ** /ask <prompt>\n\n ᴇxᴀᴍᴘʟᴇ: `/ask 𝐔sᴇ 𝐓ʜɪs 𝐓𝐨 𝐀sᴋ 𝐀ɴʏ 𝐐ᴜᴇsᴛɪᴏɴ 𝐓ᴏ 𝐌ᴇ`\n\n**➻ 𝐔sᴀɢᴇ** : /generate <prompt> \n𝐄xᴀᴍᴘʟᴇ: `/generate 𝐓ᴏ 𝐆ᴇɴᴇʀᴀᴛᴇ 𝐀 𝐏ʜᴏᴛᴏ`  \n\n➻ 𝐔sᴀɢᴇ /lyrics : 𝐑ᴇᴘʟʏ 𝐓ᴏ 𝐀ᴜᴅɪᴏ 𝐅ɪʟᴇ 𝐓ᴏ 𝐃ᴇᴛᴇᴄᴛ 𝐋ʏʀɪᴄꜱ**➻ 𝐔sᴀɢᴇ /ping 𝐓ᴏ 𝐂ʜᴇᴄᴋ 𝐓ʜᴇ 𝐏ɪɴɢ 𝐎ғ 𝐓ʜᴇ 𝐁ᴏᴛ.**\n\n©️ @Tricky_heaveN**"
+HELP_READ = "**➻ 𝐔sᴀɢᴇ** /ask <prompt>\n\n 𝐄xᴀᴍᴘʟᴇ: `/ask 𝐔sᴇ 𝐓ʜɪs 𝐓𝐨 𝐀sᴋ 𝐀ɴʏ 𝐐ᴜᴇsᴛɪᴏɴ 𝐓ᴏ 𝐌ᴇ`\n\n**➻ 𝐔sᴀɢᴇ** : /generate <prompt> \n𝐄xᴀᴍᴘʟᴇ: `/generate 𝐓ᴏ 𝐆ᴇɴᴇʀᴀᴛᴇ 𝐀 𝐏ʜᴏᴛᴏ`  \n\n➻ 𝐔sᴀɢᴇ /lyrics : 𝐑ᴇᴘʟʏ 𝐓ᴏ 𝐀ᴜᴅɪᴏ 𝐅ɪʟᴇ 𝐓ᴏ 𝐃ᴇᴛᴇᴄᴛ 𝐋ʏʀɪᴄꜱ**\n\n➻ 𝐔sᴀɢᴇ /ping 𝐓ᴏ 𝐂ʜᴇᴄᴋ 𝐓ʜᴇ 𝐏ɪɴɢ 𝐎ғ 𝐓ʜᴇ 𝐁ᴏᴛ.**\n\n©️ @Tricky_heaveN**"
 HELP_BACK = [
      [
            InlineKeyboardButton(text="𝐐ᴜᴇꜱᴛɪᴏɴ 𝐓ʜᴀᴛ 𝐂ʜᴀᴛɢᴘᴛ 𝐂ᴀɴ 𝐒ᴏʟᴠᴇ ", url=f"https://t.me/intangible_fed/1066"),
