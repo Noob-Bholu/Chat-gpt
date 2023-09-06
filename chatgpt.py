@@ -82,12 +82,6 @@ X = [
     ]
     
 PNG_BTN = [
-    [
-         InlineKeyboardButton(
-             text="𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ",
-             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-         ),
-     ],
      [
          InlineKeyboardButton(text=" 𝐃ᴇᴠᴇʟᴏᴘᴇʀ ",
                               url=f" https://t.me/{OWNER_USERNAME}"),
