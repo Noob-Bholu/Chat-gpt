@@ -59,7 +59,7 @@ MAIN = [
     [
         InlineKeyboardButton(
             text="𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ",
-            url=f"https://t.me/@ChatGpt_A_Robot?startgroup=true",
+            url=f"https://t.me/ChatGpt_A_Robot?startgroup=true",
         ),
     ],
     [
@@ -71,7 +71,7 @@ X = [
     [
         InlineKeyboardButton(
             text="𝐀ᴅᴅ 𝐌ᴇ 𝐈ɴ 𝐔ʀ 𝐆ʀᴘ",
-            url=f"https://t.me/@ChatGpt_A_Robot?startgroup=true",
+            url=f"https://t.me/ChatGpt_A_Robot?startgroup=true",
         ),
     ],
     [
