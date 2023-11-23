@@ -88,7 +88,7 @@ PNG_BTN = [
          InlineKeyboardButton(text=" 𝐒ᴜᴘᴘᴏʀᴛ ", 
                               url=f"https://t.me/{SUPPORT_GRP}"),
      ]
-]
+     ]
 
 HELP_READ = "**➻ 𝐔sᴀɢᴇ** /ask <prompt>\n\n 𝐄xᴀᴍᴘʟᴇ: `/ask 𝐔sᴇ 𝐓ʜɪs 𝐓𝐨 𝐀sᴋ 𝐀ɴʏ 𝐐ᴜᴇsᴛɪᴏɴ 𝐓ᴏ 𝐌ᴇ`\n\n**➻ 𝐔sᴀɢᴇ** : /generate <prompt> \n𝐄xᴀᴍᴘʟᴇ: `/generate 𝐓ᴏ 𝐆ᴇɴᴇʀᴀᴛᴇ 𝐀 𝐏ʜᴏᴛᴏ`  \n\n➻ 𝐔sᴀɢᴇ /lyrics : 𝐑ᴇᴘʟʏ 𝐓ᴏ 𝐀ᴜᴅɪᴏ 𝐅ɪʟᴇ 𝐓ᴏ 𝐃ᴇᴛᴇᴄᴛ 𝐋ʏʀɪᴄꜱ**\n\n➻ 𝐔sᴀɢᴇ /ping 𝐓ᴏ 𝐂ʜᴇᴄᴋ 𝐓ʜᴇ 𝐏ɪɴɢ 𝐎ғ 𝐓ʜᴇ 𝐁ᴏᴛ.**\n\n©️ @Tricky_heaveN**"
 HELP_BACK = [
@@ -221,7 +221,7 @@ async def chat(bot, message):
             telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ᴍs"
             await message.reply_photo(image_url,caption=f"➥ 𝐓ɪᴍᴇ 𝐓ᴀᴋᴇɴ {telegram_ping} \n\n➥ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ:- @Tricky_heaveN ",parse_mode=ParseMode.DISABLED,reply_markup=InlineKeyboardMarkup(X)) 
     except Exception as e:
-            await message.reply_text(f"**ᴇʀʀᴏʀ: **  ` {e} ` \n\n➥ 𝐑ᴇᴘᴏʀᴛ 𝐇ᴇʀᴇ:- @Tricky_heaveN ")
+            await message.reply_text(f"**ᴇʀʀᴏʀ: **  ` {e} ` \n\n➥ 𝐑ᴇᴘᴏʀᴛ 𝐇ᴇʀᴇ:- @noob_bholu ")
 openai.api_key = OPENAI_KEY
 @Mukesh.on_message(filters.command(["text","audiototext","lyrics"],  prefixes=["","+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(bot, message):
