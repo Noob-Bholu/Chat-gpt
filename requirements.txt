@@ -32,10 +32,7 @@ telegraph==2.2.0
 VaderSentiment==3.3.2
 wget==3.2
 wikipedia
-youtube_search
-yt_dlp
 carbon
 lexica-api
 pykeyboard
 unidecode
-Node.js
