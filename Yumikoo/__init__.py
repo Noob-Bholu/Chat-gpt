@@ -36,7 +36,7 @@ Yumikoo = Client(
 async def Yumikoo_bot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
     await Yumikoo.start()
-    await pytgcalls.start()
+    await PyTgCalls.start()
     getme = await Yumikoo.get_me()
     BOT_ID = getme.id
     BOT_USERNAME = getme.username
