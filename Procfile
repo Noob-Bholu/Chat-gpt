@@ -1,1 +1,1 @@
-Mukesh: python3 chatgpt.py
+worker: python -m Yumikoo
