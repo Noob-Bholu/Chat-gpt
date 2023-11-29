@@ -8,7 +8,7 @@ from importlib import import_module
 from os import environ, getenv, listdir, path
 from dotenv import load_dotenv
 from pyrogram import Client
-from config import API_ID, API_HASH, BOT_TOKEN, SESSION_STRING
+from config import API_ID, API_HASH, BOT_TOKEN
 import config
 
 loop = asyncio.get_event_loop()
@@ -29,18 +29,6 @@ Yumikoo = Client(
     api_hash=API_HASH,
     bot_token=config.BOT_TOKEN,
 )
-
-userbot = Client(
-    ":userbot:",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    session_string=SESSION_STRING,
-)
-
-pytgcalls = PyTgCalls(userbot)
-
-async_mongo_client = async_mongo(config.MONGO_URL)
-db = async_mongo_client.Yumikoo
 
 
 
